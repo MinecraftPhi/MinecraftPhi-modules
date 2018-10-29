@@ -1,0 +1,2 @@
+# This is just for reference for the real implementation. Using hotbar.0 is just to keep the current edit_inventory function working
+drop entity @s hotbar.0 mine 654321 0 654322 minecraft:golden_pickaxe{drop_contents:true}
