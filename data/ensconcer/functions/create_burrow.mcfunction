@@ -1,4 +1,4 @@
-scoreboard players set ensconcer:initiated global 1
+scoreboard players set $ensconcer.initiated global 1
 tellraw @a {"text":"Datapack setup complete!","color":"dark_aqua"}
 
 # Set up stuff in the chunk

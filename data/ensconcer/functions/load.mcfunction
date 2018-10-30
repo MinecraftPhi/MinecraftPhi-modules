@@ -5,4 +5,4 @@ scoreboard objectives add global dummy
 scoreboard objectives add workspace dummy
 
 # If this is the first time, start prompting player to load chunk
-execute unless score ensconcer:initiated global matches 1 run function ensconcer:check_chunk_loaded
+execute unless score $ensconcer.initiated global matches 1 run function ensconcer:check_chunk_loaded
