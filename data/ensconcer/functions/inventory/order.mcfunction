@@ -1,0 +1,4 @@
+function ensconcer:inventory/start_editing
+function ensconcer:inventory/edit_bottom_row
+function ensconcer:inventory/edit_offhand_and_armor
+function ensconcer:inventory/finish_editing

@@ -1,0 +1,2 @@
+execute store result score $ensconcer.slotcount workspace run data get block 654321 0 654321 RecordItem.tag.ensconcer.Inventory
+execute if score $ensconcer.slotcount workspace matches 1.. run function ensconcer:inventory/copy_jukebox_to_shulker/get_slot
