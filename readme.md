@@ -33,9 +33,8 @@ This function tag can be hooked into by an datapack to run functions after entit
 This command block must never be modified.
 
 ### Shulker Box
-The shulker box at (654321 0 654322) is used for player inventory manipulation. This involves copying the player's inventory to the shulker box, manipulating the data in the shulker box, then using a custom loot table combined with `/drop` to put the items back in the player's inventory.
-
-Full explanation on how to use this will be written once the functions have been finished. The current functions will only copy the player's hotbar and top two rows of the inventory. This may or may not end up being implemented as part of a transpiler, with details for manual implementation.
+The shulker box at (654321 0 654322) is used for player inventory manipulation. This involves copying the player's inventory to the shulker box, manipulating the data in the shulker box, then using a custom loot table combined with `/drop` to put the items back in the player's inventory.  
+Usage of this is described in [[player inventory manipulation|Player Inventory Manipulation]]
 
 ### Sign
 The sign at (654322 0 654322) is used for resolving advanced JSON text components to be copied into text components that only allow formatting and text.
