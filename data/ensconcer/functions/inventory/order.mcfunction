@@ -1,5 +1,0 @@
-function ensconcer:inventory/start_editing
-function ensconcer:inventory/step/hotbar_to_inventory
-function ensconcer:inventory/step/inventory_to_armor
-function ensconcer:inventory/step/armor_to_offhand
-function ensconcer:inventory/finish_editing
