@@ -1,8 +1,10 @@
 # Set up common scoreboard objectives:
-# 	global		namespaced fake-players for persistent values
-#	workspace	temporary values, do not expect to persist longer than your function runs
-scoreboard objectives add global dummy
-scoreboard objectives add workspace dummy
+#  eglobal  namespaced fake-players for persistent values
+#  temp     temporary values, do not expect to persist longer than your function runs
+#  const    constant values, the values of this objective should never be changed
+scoreboard objectives add eglobal dummy
+scoreboard objectives add temp dummy
+scoreboard objectives add const dummy
 
 # If this is the first time, start prompting player to load chunk
-execute unless score $ensconcer.initiated global matches 1 run function ensconcer:check_chunk_loaded
+execute unless score $ensconcer.initiated eglobal matches 1 run function ensconcer:check_chunk_loaded

@@ -1,5 +1,5 @@
 # Remove temporary data used by this module:
-scoreboard players reset $modifyinv.slot workspace
+scoreboard players reset $modifyinv.slot temp
 data remove block 654321 0 654321 RecordItem.tag.ensconcer.inventory
 data remove block 654321 0 654321 RecordItem.tag.ensconcer.hotbar
 data remove block 654321 0 654321 RecordItem.tag.ensconcer.armor
