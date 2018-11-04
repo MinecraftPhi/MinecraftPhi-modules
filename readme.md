@@ -34,7 +34,7 @@ This command block must never be modified.
 
 ### Shulker Box
 The shulker box at (654321 0 654322) is used for player inventory manipulation. This involves copying the player's inventory to the shulker box, manipulating the data in the shulker box, then using a custom loot table combined with `/drop` to put the items back in the player's inventory.  
-Usage of this is described in [[player inventory manipulation|Player Inventory Manipulation]]
+Usage of this is described in [Player Inventory Manipulation](https://github.com/MinecraftCommands/ensconcer/wiki/Player-Inventory-Manipulation)
 
 ### Sign
 The sign at (654322 0 654322) is used for resolving advanced JSON text components to be copied into text components that only allow formatting and text.
