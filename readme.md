@@ -17,28 +17,4 @@ Some bedrock is also placed directly above these blocks to protect them.
 These blocks must **not** be destroyed by any datapack, at any point, for any reason.  
 The rest of the chunk, from y=2 and above, is freely available for any use by datapacks. However, these blocks can not be expected to remain untouched by other datapacks, this area is for temporary storage only.
 
-### Jukebox
-The jukebox located at (654321 0 654321) is for data storage. It contains an item with a `tag` tag. All accesses to this data should be in the form:
-```
-RecordItem.tag.<namespace>...
-```
-Where `<namespace>` is your namespace being used in your datapack(s). This is done to prevent conflicts between datapacks.  
-The `...` can be any NBT path, anything within this is completely under the control of your datapack.
-
-This block is used for storing any data that cannot be stored on the scoreboard, e.g. strings like enchantment ids, or entire NBT compounds like items. However, it is recommended to still use the scoreboard whenever possible, because the scoreboard is more performant.
-
-### Command Block
-The command block at (654322 0 654321) is a repeating command block running the function tag `#ensconcer:overworld_tick`  
-This function tag can be hooked into by an datapack to run functions after entity processing is completed for the current tick.  
-This command block must never be modified.
-
-### Shulker Box
-The shulker box at (654321 0 654322) is used for player inventory manipulation. This involves copying the player's inventory to the shulker box, manipulating the data in the shulker box, then using a custom loot table combined with `/drop` to put the items back in the player's inventory.  
-Usage of this is described in [Player Inventory Manipulation](https://github.com/MinecraftCommands/ensconcer/wiki/Player-Inventory-Manipulation)
-
-### Sign
-The sign at (654322 0 654322) is used for resolving advanced JSON text components to be copied into text components that only allow formatting and text.
-Just apply the json text to the sign using whatever method you wish, and then copy the result to another location using
-```
-data modify ... set from block 654322 0 654322 Text1
-```
+More details on what these are used for, and what modules are currently available, see the [Ensconcer wiki](https://github.com/MinecraftCommands/ensconcer/wiki)
