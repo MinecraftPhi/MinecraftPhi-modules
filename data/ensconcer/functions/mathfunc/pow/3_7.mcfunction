@@ -1,0 +1,2 @@
+execute if score $ensconcer.mathfunc.pow.exp temp matches 4..5 run function ensconcer:mathfunc/pow/4_5
+execute unless score $ensconcer.mathfunc.pow.exp temp matches 4..5 run function ensconcer:mathfunc/pow/3.6_7
