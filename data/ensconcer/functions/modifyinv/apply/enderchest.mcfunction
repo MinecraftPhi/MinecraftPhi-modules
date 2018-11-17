@@ -1,0 +1,1 @@
+loot replace entity @s enderchest.0 27 mine -30000000 0 1602 minecraft:golden_pickaxe{drop_contents:true}
