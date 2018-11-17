@@ -1,0 +1,1 @@
+execute as ec-0-0-0-1 run function ensconcer:mathfunc/sin_cos/cos_neg_sin
