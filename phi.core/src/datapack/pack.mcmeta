@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format":4,
+        "description":"The core module of Phi. Required for any Phi modules to work"
+    }
+}

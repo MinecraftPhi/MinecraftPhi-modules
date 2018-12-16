@@ -1,0 +1,16 @@
+{
+    "modules": [
+        {
+            "id": "phi.core",
+            "name": "Phi Core",
+            "description": "The core module of Phi. Required for any Phi modules to work",
+            "distributable": true
+        },
+        {
+            "id": "phi.bitwise",
+            "name": "Bitwise Operations",
+            "description": "Adds bitwise operations: not, and, or, xor, left shift, signed right shift, unsigned right shift",
+            "distributable": true
+        }
+    ]
+}

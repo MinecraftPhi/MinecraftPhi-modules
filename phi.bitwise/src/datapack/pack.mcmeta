@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format":4,
+        "description":"Adds bitwise operations: not, and, or, xor, left shift, signed right shift, unsigned right shift"
+    }
+}
