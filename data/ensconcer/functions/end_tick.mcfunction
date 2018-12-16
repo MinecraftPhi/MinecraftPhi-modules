@@ -1,0 +1,2 @@
+function #ensconcer:end_tick
+function ensconcer:create_helper_entity
