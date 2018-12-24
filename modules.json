@@ -11,6 +11,12 @@
             "name": "Bitwise Operations",
             "description": "Adds bitwise operations: not, and, or, xor, left shift, signed right shift, unsigned right shift",
             "distributable": true
+        },
+        {
+            "id": "phi.mathfunc",
+            "name": "Maths Functions",
+            "description": "General maths functions",
+            "distributable": true
         }
     ]
 }
