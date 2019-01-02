@@ -20,6 +20,6 @@ Some bedrock is also placed directly above these blocks to protect them.
 These blocks must **not** be destroyed by any datapack, at any point, for any reason.  
 The rest of the chunk, from y=2 and above, is freely available for any use by datapacks. However, these blocks can not be expected to remain untouched by other datapacks, this area is for temporary storage only.
 
-Phi also uses an entity with the UUID of ec-0-0-0-1, for various utilities. At the end of every tick it will make sure the entity is in the loaded chunk, and has not been killed. DO NOT kill this entity, ensconcer and many datapacks using ensconcer rely on this entity existing. If you do kill this entity, it will be summoned again at the end of the tick, so everything should recover in one tick, but things may glitch or fail while this entity is dead.
+Phi also uses an entity with the UUID of ec-0-0-0-1, for various utilities. At the end of every tick it will make sure the entity is in the loaded chunk, and has not been killed. DO NOT kill this entity, Phi and many datapacks using Phi rely on this entity existing. If you do kill this entity, it will be summoned again at the end of the tick, so everything should recover in one tick, but things may glitch or fail while this entity is dead.
 
 More details on what these are used for, and what modules are currently available, see the [Phi wiki](https://github.com/MinecraftPhi/MinecraftPhi-modules/wiki)
