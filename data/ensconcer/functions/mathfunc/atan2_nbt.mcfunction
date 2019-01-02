@@ -1,1 +1,0 @@
-execute as ec-0-0-0-1 run function ensconcer:mathfunc/atan2/calculate

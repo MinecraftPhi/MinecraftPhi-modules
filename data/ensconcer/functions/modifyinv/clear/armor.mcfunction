@@ -1,2 +1,0 @@
-function ensconcer:clear_shulker_box
-function ensconcer:modifyinv/apply/armor

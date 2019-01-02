@@ -26,6 +26,20 @@
             "description": "Adds functions for doing arbitrary manipulations of the player's inventory",
             "distributable": true,
             "dependencies": ["phi.core"]
+        },
+        {
+            "id": "phi.playerinfo",
+            "name": "Player Information",
+            "description": "Adds functions for reading information about the player",
+            "distributable": true,
+            "dependencies": ["phi.core"]
+        },
+        {
+            "id": "phi.vector",
+            "name": "Vector",
+            "description": "Adds functions related to vectors",
+            "distributable": true,
+            "dependencies": ["phi.core"]
         }
     ]
 }

@@ -1,2 +1,0 @@
-execute if score $bitwise.b temp matches ..29 run function ensconcer:bitwise/internal/2_pow_b/2/28_29
-execute if score $bitwise.b temp matches 30.. run function ensconcer:bitwise/internal/2_pow_b/2/30_31

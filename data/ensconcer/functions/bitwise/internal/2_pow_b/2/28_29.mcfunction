@@ -1,2 +1,0 @@
-execute if score $bitwise.b temp matches ..28 run scoreboard players set $bitwise.pow temp 268435456
-execute if score $bitwise.b temp matches 29.. run scoreboard players set $bitwise.pow temp 536870912

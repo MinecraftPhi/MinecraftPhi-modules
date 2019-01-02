@@ -1,0 +1,29 @@
+{
+   "type": "minecraft:entity",
+   "pools": [
+     {
+       "rolls": 1,
+       "entries": [
+         {
+           "type": "minecraft:item",
+           "functions": [
+             {
+               "function": "minecraft:fill_player_head",
+               "entity": "this"
+             }
+           ],
+           "conditions": [
+             {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                     "nbt": "{Tags:[\"phi.playerinfo.drop_head\"]}"
+                 }
+             }
+           ],
+           "name": "minecraft:player_head"
+         }
+       ]
+     }
+   ]
+ }
