@@ -4,4 +4,5 @@ data remove block -30000000 0 1600 RecordItem.tag.phi.modifyinv.whole_inventory[
 
 # Get the slot number for the next item and repeat:
 execute store result score $phi.modifyinv.slot temp run data get block -30000000 0 1600 RecordItem.tag.phi.modifyinv.whole_inventory[0].Slot
+scoreboard players remove $phi.modifyinv.slot_count temp 1
 function phi.modifyinv:setup/internal/whole_inventory/check_hotbar
