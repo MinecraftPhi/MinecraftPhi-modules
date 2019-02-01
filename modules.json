@@ -40,6 +40,13 @@
             "description": "Adds functions related to vectors",
             "distributable": true,
             "dependencies": ["phi.core"]
+        },
+        {
+            "id": "phi.rng",
+            "name": "RNG",
+            "description": "Adds random number generators",
+            "distributable": true,
+            "dependencies": ["phi.core"]
         }
     ]
 }
