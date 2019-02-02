@@ -1,4 +1,3 @@
-scoreboard players set $phi.rng.lcg.inc const 12345
 scoreboard players set $phi.rng.lcg.mul const 1103515245
 scoreboard players set $phi.rng.lcg.discard const 16
 
