@@ -14,3 +14,6 @@ summon area_effect_cloud ~ ~ ~ {Tags:["phi.core.ld","phi.core.ld.nether"],Durati
 summon area_effect_cloud ~ ~ ~ {Tags:["phi.core.ld","phi.core.ld.end"],Duration:100}
 execute in the_nether run tp @e[type=area_effect_cloud,tag=phi.core.ld.nether,limit=1] ~ ~ ~
 execute in the_end run tp @e[type=area_effect_cloud,tag=phi.core.ld.end,limit=1] ~ ~ ~
+execute as @e[type=area_effect_cloud,tag=phi.core.ld] at @s run spreadplayers ~ ~ 0 1 false @s
+
+execute if score $phi.core.chunk_loaded temp matches 1 run kill @e[type=area_effect_cloud,tag=phi.core.ld]

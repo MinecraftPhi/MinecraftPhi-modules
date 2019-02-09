@@ -17,5 +17,5 @@ execute in the_end run tp @e[type=area_effect_cloud,tag=phi.core.ld.end,limit=1]
 execute as @e[type=area_effect_cloud,tag=phi.core.ld] at @s run spreadplayers ~ ~ 0 1 false @s
 
 # Chunk has been loaded:
-execute if score $phi.core.chunk_loaded temp matches 1 at @e[type=area_effect_cloud,tag=phi.core.ld] run function phi.core:internal/create_burrow
+execute if score $phi.core.chunk_loaded temp matches 1 as @e[type=area_effect_cloud,tag=phi.core.ld] at @s run function phi.core:internal/create_burrow
 execute if score $phi.core.chunk_loaded temp matches 1 run function phi.core:internal/setup_complete
