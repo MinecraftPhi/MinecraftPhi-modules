@@ -5,4 +5,4 @@ scoreboard players operation $phi.rng.lcg_range.discard const = $phi.rng.lcg.dis
 scoreboard players operation $phi.rng.lcg_range.discard const /= 2 const
 
 # only calculate seed if it hasn't already been set
-execute unless score $phi.rng.lcg.seed phiglobal matches -2147483648.. run function phi.rng:reset_seed
+execute unless score $phi.rng.lcg.global_seed phiglobal matches -2147483648.. run function phi.rng:reset_seed
