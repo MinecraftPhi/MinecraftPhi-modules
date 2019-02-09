@@ -7,7 +7,7 @@ execute if score $phi.core.chunk_loaded temp matches 1 in the_end store success 
 
 # If still not loaded, prompt player and schedule self again 
 execute if score $phi.core.chunk_loaded temp matches 0 run tellraw @a {"text":"Almost done, click here to complete datapack setup!","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/execute at @e[type=area_effect_cloud,tag=phi.core.ld] run forceload add -30000000 1600"}}
-execute if score $phi.core.chunk_loaded temp matches 0 run schedule function phi.core:internal/check_chunk_loaded 5s
+execute if score $phi.core.chunk_loaded temp matches 0 run schedule function phi.core:internal/load_and_setup 5s
 
 summon area_effect_cloud ~ ~ ~ {Tags:["phi.core.ld","phi.core.ld.overworld"],Duration:100}
 summon area_effect_cloud ~ ~ ~ {Tags:["phi.core.ld","phi.core.ld.nether"],Duration:100}
