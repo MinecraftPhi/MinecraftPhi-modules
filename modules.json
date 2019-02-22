@@ -47,6 +47,13 @@
             "description": "Adds random number generators",
             "distributable": true,
             "dependencies": ["phi.core"]
+        },
+        {
+            "id": "phi.int64",
+            "name": "Integer64",
+            "description": "Arithmetic on 64 bit numbers",
+            "distributable": true,
+            "dependencies": ["phi.core"]
         }
     ]
 }
