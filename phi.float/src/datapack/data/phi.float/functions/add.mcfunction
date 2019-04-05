@@ -1,4 +1,4 @@
-# output = inputA+inputB, 1024
+# output = inputA+inputB
 # 0 <= output <= 1024
 
 # Summon a stand with 2 armor pieces that ADD TO its maxHealth attribute
