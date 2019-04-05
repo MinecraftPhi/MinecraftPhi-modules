@@ -54,6 +54,13 @@
             "description": "Arithmetic on 64 bit numbers",
             "distributable": true,
             "dependencies": ["phi.core"]
+        },
+        {
+            "id": "phi.float",
+            "name": "Float",
+            "description": "Arithmetic on Floats and/or Doubles",
+            "distributable": true,
+            "dependencies": ["phi.core"]
         }
     ]
 }
