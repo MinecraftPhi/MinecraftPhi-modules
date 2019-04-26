@@ -9,6 +9,9 @@
         },
         "enter_block": {
             "trigger": "minecraft:enter_block"
+        },
+        "keep": {
+            "trigger": "minecraft:enter_block"
         }
     }
 }
