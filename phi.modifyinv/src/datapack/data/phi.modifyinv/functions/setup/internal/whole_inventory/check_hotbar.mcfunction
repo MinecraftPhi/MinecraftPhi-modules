@@ -1,2 +1,2 @@
 # Check whether slot number matches a hotbar slot:
-execute if score $phi.modifyinv.slot_count temp matches 1.. if score $phi.modifyinv.slot temp matches 0..8 run function phi.modifyinv:setup/internal/whole_inventory/found_hotbar
+execute if score $phi.modifyinv.slot_count phitemp matches 1.. if score $phi.modifyinv.slot phitemp matches 0..8 run function phi.modifyinv:setup/internal/whole_inventory/found_hotbar

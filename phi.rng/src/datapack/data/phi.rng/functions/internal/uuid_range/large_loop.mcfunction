@@ -1,5 +1,5 @@
 function phi.rng:uuid
 
-execute store success score $phi.rng.in_range temp if score $phi.rng.value temp < $phi.rng.range.min temp
-execute if score $phi.rng.in_range temp matches 0 store success score $phi.rng.in_range temp if score $phi.rng.value temp > $phi.rng.range.max temp
-execute unless score $phi.rng.in_range temp matches 0 run function phi.rng:internal/uuid_range/large_loop
+execute store success score $phi.rng.in_range phitemp if score $phi.rng.value phitemp < $phi.rng.range.min phitemp
+execute if score $phi.rng.in_range phitemp matches 0 store success score $phi.rng.in_range phitemp if score $phi.rng.value phitemp > $phi.rng.range.max phitemp
+execute unless score $phi.rng.in_range phitemp matches 0 run function phi.rng:internal/uuid_range/large_loop

@@ -1,2 +1,2 @@
-execute if score $phi.bitwise.b temp matches ..28 run scoreboard players set $phi.bitwise.pow temp 268435456
-execute if score $phi.bitwise.b temp matches 29.. run scoreboard players set $phi.bitwise.pow temp 536870912
+execute if score $phi.bitwise.b phitemp matches ..28 run scoreboard players set $phi.bitwise.pow phitemp 268435456
+execute if score $phi.bitwise.b phitemp matches 29.. run scoreboard players set $phi.bitwise.pow phitemp 536870912

@@ -1,0 +1,14 @@
+{
+    "parent": "phi.core:root",
+    "rewards": {
+        "function": "phi.core:internal/tick_end"
+    },
+    "criteria": {
+        "host": {
+            "trigger": "minecraft:impossible"
+        },
+        "enter_block": {
+            "trigger": "minecraft:enter_block"
+        }
+    }
+}

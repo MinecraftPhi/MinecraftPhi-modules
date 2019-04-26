@@ -1,3 +1,3 @@
 function phi.rng:uuid
-scoreboard players operation $phi.rng.value temp %= $phi.rng.range temp
-scoreboard players operation $phi.rng.value temp += $phi.rng.range.min temp
+scoreboard players operation $phi.rng.value phitemp %= $phi.rng.range phitemp
+scoreboard players operation $phi.rng.value phitemp += $phi.rng.range.min phitemp
