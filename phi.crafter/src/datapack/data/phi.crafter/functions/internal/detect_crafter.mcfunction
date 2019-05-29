@@ -1,2 +1,2 @@
-execute if block ~ ~ ~ minecraft:chest run function phi.crafter:internal/crafter
-execute unless block ~ ~ ~ minecraft:chest run function phi.crafter:internal/kill_crafter
+execute if block ~ ~ ~ minecraft:barrel run function phi.crafter:internal/crafter
+execute unless block ~ ~ ~ minecraft:barrel run function phi.crafter:internal/kill_crafter

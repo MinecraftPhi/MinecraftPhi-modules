@@ -6,3 +6,5 @@ advancement revoke @a only phi.core:internal/tick_end host
 
 # Choose an arbitrary player as the host for this tick.
 advancement grant @a[sort=arbitrary,limit=1] only phi.core:internal/tick_end host
+
+execute if score $phi.core.loaded_chunks phiglobal matches 3 unless score $phi.core.initiated phiglobal matches 1 run function phi.core:internal/setup_complete
