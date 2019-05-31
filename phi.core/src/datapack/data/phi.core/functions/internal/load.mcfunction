@@ -6,6 +6,7 @@ scoreboard objectives add phiglobal dummy
 scoreboard objectives add phitemp dummy
 scoreboard objectives add phiconst dummy
 
+scoreboard players set $phi.core.loaded phiglobal 0
 # Load modules:
 function #phi.core:load
 

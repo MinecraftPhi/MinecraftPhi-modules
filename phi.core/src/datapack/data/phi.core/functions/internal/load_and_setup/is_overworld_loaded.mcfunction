@@ -2,4 +2,5 @@ execute in overworld store success score $phi.core.overworld_loaded phiglobal if
 scoreboard players operation $phi.core.loaded_chunks phiglobal += $phi.core.overworld_loaded phiglobal
 tellraw @a {"score":{"name":"$phi.core.loaded_chunks","objective":"phiglobal"}}
 execute if score $phi.core.overworld_loaded phiglobal matches 1 in overworld run function phi.core:internal/create_burrow
+execute if score $phi.core.overworld_loaded phiglobal matches 1 in overworld run function #phi.core:overworld_load
 execute if score $phi.core.overworld_loaded phiglobal matches 0 run schedule function phi.core:internal/load_and_setup/is_overworld_loaded 1t
