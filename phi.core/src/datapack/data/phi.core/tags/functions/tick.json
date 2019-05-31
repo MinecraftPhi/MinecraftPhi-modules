@@ -1,5 +1,5 @@
 {
     "values": [
-        "phi.core:internal/fully_loaded_tick.mcfunction"
+        "phi.core:internal/fully_loaded_tick"
     ]
 }
