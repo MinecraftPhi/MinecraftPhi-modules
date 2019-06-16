@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ mine -30000000 0 1602 minecraft:golden_pickaxe{phi:{drop_contents:true}}
+loot spawn ~ ~ ~ mine -30000000 0 1602 minecraft:air{drop_contents:1b}

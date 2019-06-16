@@ -10,5 +10,5 @@ scoreboard players set $phi.core.loaded phiglobal 0
 # Load modules:
 function #phi.core:load
 
-# If this is the first time, start prompting player to load chunk
+# Start prompting players to load chunk
 function phi.core:internal/load_and_setup
