@@ -1,0 +1,1 @@
+execute in the_nether run function #phi.core:the_nether_tick

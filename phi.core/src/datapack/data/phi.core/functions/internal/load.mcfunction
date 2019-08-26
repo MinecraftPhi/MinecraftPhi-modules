@@ -12,3 +12,6 @@ function #phi.core:load
 
 # Start prompting players to load chunk
 function phi.core:internal/load_and_setup
+
+# Ensure tick functions run this tick. Using schedule to ensure load runs before tick
+schedule function #phi.core:internal/tick 1t

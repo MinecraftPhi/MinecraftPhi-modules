@@ -1,6 +1,9 @@
-execute if score $phi.core.loaded_chunks phiglobal matches 3 unless score $phi.core.loaded phiglobal matches 1 run function phi.core:internal/on_full_load
-execute if score $phi.core.loaded_chunks phiglobal matches 3 unless score $phi.core.initiated phiglobal matches 1 run function phi.core:internal/setup_complete
-execute if score $phi.core.loaded_chunks phiglobal matches 3 run function #phi.core:tick
-execute if score $phi.core.overworld_loaded phiglobal matches 1 in overworld run function #phi.core:overworld_tick
-execute if score $phi.core.the_nether_loaded phiglobal matches 1 in the_nether run function #phi.core:the_nether_tick
-execute if score $phi.core.the_end_loaded phiglobal matches 1 in the_end run function #phi.core:the_end_tick
+# Modified and simplified from Arcensoth's tickbuster pack (https://github.com/Arcensoth/tickbuster-datapack)
+# Make sure the tick_end advancement can be obtained every tick. Done here so that it doesn't trigger multiple times in one tick
+advancement revoke @a only phi.core:internal/tick_end
+
+# Choose an arbitrary player as the host for this tick.
+advancement grant @a[sort=arbitrary,limit=1] only phi.core:internal/tick_end host
+
+# Ensure tick functions run next tick
+schedule function #phi.core:internal/tick 1t

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "phi.core:internal/tick",
+        "#phi.core:tick",
+        "#phi.core:overworld_tick",
+        "phi.core:internal/the_nether_tick",
+        "phi.core:internal/the_end_tick"
+    ]
+}
