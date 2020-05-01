@@ -10,8 +10,7 @@ Each module contains a datapack that can be added to the `datapacks` folder of y
 Upon loading the world, or on `/reload`, players will be prompted to complete the setup by clicking on the message, which will show every 5 seconds until the setup is complete. This can only be done by operators, and causes the chunk at block (-30000000, 1600) to be force loaded (chunk -1875000, 100), in every dimension.
 
 ## Usage
-Phi adds 4 blocks to the world for various uses that are shared between datapacks:
-- (-30000000 0 1600): A jukebox with an item in it
+Phi adds 3 blocks to the world for various uses that are shared between datapacks:
 - (-30000000 0 1601): A command block running a function tag
 - (-30000000 0 1602): A shulker box
 - (-30000000 0 1603): A sign
