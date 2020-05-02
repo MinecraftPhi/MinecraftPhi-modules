@@ -1,4 +1,4 @@
-# Copy player inventory data to jukebox and sort into sections so they can be loaded.
+# Copy player inventory data to storage and sort into sections so they can be loaded.
 
 # Reset sections:
 data modify storage phi:modifyinv inventory set value []
