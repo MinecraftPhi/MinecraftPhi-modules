@@ -1,5 +1,5 @@
 # Minecraft Phi - Shared Utilities for Minecraft Datapacks
-Phi is a library of utilities for minecraft datapacks that intends to unify data storage and manipulation in minecraft 1.14+
+Phi is a library of utilities for minecraft datapacks that intends to unify data storage and manipulation in minecraft 1.16+
 
 Phi is split into multiple optional modules that each add some piece of functionality.
 There are plans to create a transpiler with direct support for Phi to ease the use of various advanced features.
