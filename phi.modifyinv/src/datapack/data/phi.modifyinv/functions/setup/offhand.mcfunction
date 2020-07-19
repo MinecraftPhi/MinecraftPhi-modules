@@ -1,6 +1,4 @@
-function phi.core:clear_shulker_box
-
-# Reset list:
+# Use empty list to also clear the shulker box in the same NBT operation
 data modify storage phi.modifyinv:temp offhand set value []
 
 data modify storage phi.modifyinv:temp offhand append from entity @s Inventory[{Slot:-106b}]
