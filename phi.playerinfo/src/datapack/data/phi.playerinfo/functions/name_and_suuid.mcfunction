@@ -1,4 +1,5 @@
 function phi.playerinfo:store_head
-data modify block -30000000 0 1600 RecordItem.tag.phi.playerinfo set value {}
-data modify block -30000000 0 1600 RecordItem.tag.phi.playerinfo.name set from block -30000000 0 1602 Items[{Slot:0b}].tag.SkullOwner.Name
-data modify block -30000000 0 1600 RecordItem.tag.phi.playerinfo.suuid set from block -30000000 0 1602 Items[{Slot:0b}].tag.SkullOwner.Id
+data remove storage phi.playerinfo:temp name
+data modify storage phi.playerinfo:temp name set from block -30000000 0 1602 Items[{Slot:0b}].tag.SkullOwner.Name
+data remove storage phi.playerinfo:temp suuid
+data modify storage phi.playerinfo:temp suuid set from block -30000000 0 1602 Items[{Slot:0b}].tag.SkullOwner.Id
