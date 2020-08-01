@@ -61,6 +61,13 @@
             "description": "Custom crafting table",
             "distributable": true,
             "dependencies": ["phi.core", "phi.modifyinv"]
+        },
+        {
+            "id": "phi.structure",
+            "name": "Structures",
+            "description": "Save and load structure to/from NBT",
+            "distributable": true,
+            "dependencies": ["phi.core"]
         }
     ]
 }

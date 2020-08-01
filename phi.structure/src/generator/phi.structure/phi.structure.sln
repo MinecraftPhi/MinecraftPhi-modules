@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phi.structure", "phi.structure\phi.structure.csproj", "{3AD83C9A-BCAE-457D-B2B7-7EB2865E8566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{65FF3923-95E1-4877-A7A7-027FC3D54BEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepoApi", "Dependencies\RepoApi\RepoApi\RepoApi.csproj", "{9206D29B-CA7F-48E7-977C-6CD110484EFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorLibrary", "..\..\..\..\GeneratorLibrary\GeneratorLibrary\GeneratorLibrary.csproj", "{3389C77B-C3B8-4121-B687-7192088B11AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD83C9A-BCAE-457D-B2B7-7EB2865E8566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD83C9A-BCAE-457D-B2B7-7EB2865E8566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD83C9A-BCAE-457D-B2B7-7EB2865E8566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD83C9A-BCAE-457D-B2B7-7EB2865E8566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9206D29B-CA7F-48E7-977C-6CD110484EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9206D29B-CA7F-48E7-977C-6CD110484EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9206D29B-CA7F-48E7-977C-6CD110484EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9206D29B-CA7F-48E7-977C-6CD110484EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3389C77B-C3B8-4121-B687-7192088B11AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3389C77B-C3B8-4121-B687-7192088B11AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3389C77B-C3B8-4121-B687-7192088B11AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3389C77B-C3B8-4121-B687-7192088B11AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9206D29B-CA7F-48E7-977C-6CD110484EFB} = {65FF3923-95E1-4877-A7A7-027FC3D54BEA}
+		{3389C77B-C3B8-4121-B687-7192088B11AA} = {65FF3923-95E1-4877-A7A7-027FC3D54BEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E823CFC-15A4-4B06-8514-BBE260969640}
+	EndGlobalSection
+EndGlobal
