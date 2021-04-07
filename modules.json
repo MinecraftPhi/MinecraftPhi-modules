@@ -5,70 +5,129 @@
             "id": "phi.core",
             "name": "Phi Core",
             "description": "The core module of Phi. Required for any Phi modules to work",
-            "distributable": true
+            "distributable": true,
+            "version": 0.1,
         },
         {
             "id": "phi.bitwise",
             "name": "Bitwise Operations",
             "description": "Adds bitwise operations: not, and, or, xor, left shift, signed right shift, unsigned right shift",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.mathfunc",
             "name": "Maths Functions",
             "description": "General maths functions",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.modifyinv",
             "name": "Modify Inventory",
             "description": "Adds functions for doing arbitrary manipulations of the player's inventory",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.playerinfo",
             "name": "Player Information",
             "description": "Adds functions for reading information about the player",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.vector",
             "name": "Vector",
             "description": "Adds functions related to vectors",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.rng",
             "name": "RNG",
             "description": "Adds random number generators",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.int64",
             "name": "Integer64",
             "description": "Arithmetic on 64 bit numbers",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.crafter",
             "name": "Crafter",
             "description": "Custom crafting table",
             "distributable": true,
-            "dependencies": ["phi.core", "phi.modifyinv"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                },
+                {
+                    "id": "phi.modifyinv",
+                    "version": 0.1
+                }
+            ]
         },
         {
             "id": "phi.structure",
             "name": "Structures",
             "description": "Save and load structure to/from NBT",
             "distributable": true,
-            "dependencies": ["phi.core"]
+            "version": 0.1,
+            "dependencies": [
+                {
+                    "id": "phi.core",
+                    "version": 0.1
+                }
+            ]
         }
     ]
 }
